@@ -1,5 +1,5 @@
 SRC_DIR=src
-BUILD_DIR=dist
+BUILD_DIR=docs
 MDS=$(wildcard $(SRC_DIR)/*.md)
 HTMLS=$(patsubst $(SRC_DIR)%,$(BUILD_DIR)%, $(patsubst %.md,%.html, $(MDS)))
 WORK_DIR=work
