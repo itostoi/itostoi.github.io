@@ -37,5 +37,5 @@ init:
 	mkdir -p $(WORK_DIR); \
 	
 clean:
-	rm -rf $(BUILD_DIR)/* \
+	rm -rf $(BUILD_DIR)/*.md \
 	rm -rf $(WORK_DIR)/* \
