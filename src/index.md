@@ -1,41 +1,22 @@
-# WIP-website
-Welcome to Derek's personal website!
-
-
-## TODO:
-1) Fill in content.
-2) See if linking to images is supported by pandoc.
-3) Get some custom CSS going so the top nav is not scuffed.
-
-----
-
-# Stuff
-
-Uses [Pandoc](https://pandoc.org/chunkedhtml-demo/8.14-raw-html.html) +
-[GNU make](https://www.gnu.org/software/make/) to build markdown into a static
-site. Very [Eggert](https://samueli.ucla.edu/people/paul-eggert/)-core.
-
-```js
-// this is a  code block
-() => {
-  console.log("Hello World");
-}
-```
-
-```cpp
-vector<int> v;
-cout << "Hello World" << endl;
-```
-
-Helpful options when converting from a markdown file to html:
-```
-pandoc test.md --from markdown --to html -o index.html
---include-in-header
---include-before-body
---include-after-body
---standalone
-```
+# Home
 
 ---
 
->  Suffering builds character.
+Hi, I'm Derek. I learn, write code, try to have fun, and sleep.
+
+UCLA Class of 2025, BS in Computer Science and Mathematics.
+
+I have mostly written C++ and Python.
+
+My CS-related activities are primarily ML, Linux, and some game development,
+mostly with Unity. I hesitate to say I am "good" at any of these, but rather I
+do my best to spend time on them. 
+
+## Contact
+Email: derek.l.jiang(at)gmail.com |
+[Linkedin](https://www.linkedin.com/in/derek-l-jiang/) |
+[Github](https://github.com/itostoi) | 
+Discord: @itostoi
+
+## TODO
+Consider adding a resume.

@@ -1,4 +1,7 @@
-## Nav
-1) [about](about.html)
-2) [index](index.html)
-3) [test](test.html)
+
+[**itostoi.github.io**]{.navtitle}
+[about](about.html){.navitem}
+[art](art.html){.navitem}
+[index](index.html){.navitem}
+[mental](mental.html){.navitem}
+[meta](meta.html){.navitem}

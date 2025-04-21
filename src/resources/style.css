@@ -1,0 +1,28 @@
+body {
+  font-family: serif;
+  max-width: 50em;
+  margin: auto;
+  background: #FAFAFA;
+  color: #1a1a1a;
+  padding: 10px;
+}
+
+.navitem, .navtitle {
+  margin-right: 0.5em;
+}
+
+div.sourceCode {
+  padding: 0.5em;
+  border: 1px solid gray;
+  border-radius: 0.5em;
+  background: #F0F0F0;
+}
+
+table {
+  width: 100%;
+}
+
+.acm-graphics {
+  display: flex;
+  justify-content: center;
+}
