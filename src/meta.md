@@ -85,7 +85,7 @@ $(BUILD_DIR)/%.html: $(SRC_DIR)/%.md init
 ```
 
 A few utility functions.
-```
+```sh
 init:
 	mkdir -p $(BUILD_DIR); \
 	mkdir -p $(WORK_DIR); \

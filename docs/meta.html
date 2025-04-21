@@ -320,16 +320,16 @@ HTML fragment).</li>
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>        <span class="at">--standalone</span> <span class="dt">\</span></span>
 <span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>        <span class="at">-s</span> $<span class="op">&lt;</span> -o <span class="va">$@</span><span class="kw">;</span> <span class="dt">\</span></span></code></pre></div>
 <p>A few utility functions.</p>
-<pre><code>init:
-    mkdir -p $(BUILD_DIR); \
-    mkdir -p $(WORK_DIR); \
-    
-clean:
-    rm -rf $(BUILD_DIR)/* \
-    rm -rf $(WORK_DIR)/* \
-
-resources:
-    # Copy resources from dev to deployment
-    cp -rf $(SRC_DIR)/resources $(BUILD_DIR)</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">init:</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mkdir</span> <span class="at">-p</span> <span class="va">$(</span><span class="ex">BUILD_DIR</span><span class="va">)</span><span class="kw">;</span> <span class="dt">\</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">mkdir</span> <span class="at">-p</span> <span class="va">$(</span><span class="ex">WORK_DIR</span><span class="va">)</span><span class="kw">;</span> <span class="dt">\</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ex">clean:</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="fu">rm</span> <span class="at">-rf</span> <span class="va">$(</span><span class="ex">BUILD_DIR</span><span class="va">)</span>/<span class="pp">*</span> <span class="dt">\</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    rm <span class="at">-rf</span> <span class="va">$(</span><span class="ex">WORK_DIR</span><span class="va">)</span>/<span class="pp">*</span> <span class="dt">\</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="ex">resources:</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Copy resources from dev to deployment</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>    <span class="fu">cp</span> <span class="at">-rf</span> <span class="va">$(</span><span class="ex">SRC_DIR</span><span class="va">)</span>/resources <span class="va">$(</span><span class="ex">BUILD_DIR</span><span class="va">)</span></span></code></pre></div>
 </body>
 </html>
